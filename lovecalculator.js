@@ -72,7 +72,7 @@ button.addEventListener('click', function (event) {
 
     document.querySelector('h1').innerHTML = `Your love is ${lovePercent}%`;
     if (lovePercent >= 75) {
-      document.querySelector('h2').innerHTML = `Your love each other like Kanye loves Kanye!`;
+      document.querySelector('h2').innerHTML = `You love each other like Kanye loves Kanye!`;
     } else if(lovePercent >= 60){
       document.querySelector('h2').innerHTML = `Your love needs a little more love.`;
     } else if (lovePercent >= 50){
